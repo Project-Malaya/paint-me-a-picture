@@ -1,5 +1,9 @@
 @import '../../../variables';
 
 .slogan {
-  font-size: $font-size-xlarge;
+  font-size: $font-size-xxlarge;
+
+  @media screen and (min-width: 480px) {
+    font-size: $font-size-xxxlarge;
+  }
 }

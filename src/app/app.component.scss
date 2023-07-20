@@ -15,6 +15,21 @@
 }
 
 .landing-page {
-  background-color: grey;
+  // background-color: #EBEBEB;
   padding: $spacing-large;
+}
+
+.subtitle {
+  font-size: $font-size-large;
+}
+
+.bgImage {
+  opacity: 0.3;
+
+  &-top {
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
 }
