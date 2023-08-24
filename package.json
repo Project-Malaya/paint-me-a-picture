@@ -1,7 +1,10 @@
 {
   "name": "paint-me-a-picture",
   "version": "0.0.0",
+  "homepage": "https://project-malaya.github.io/paint-me-a-picture/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
